@@ -130,3 +130,7 @@ img{
     object-fit: cover;
     object-position: center;
 }
+
+.selected {
+    text-decoration: underline !important;
+}
