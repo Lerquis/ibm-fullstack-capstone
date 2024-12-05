@@ -1,17 +1,17 @@
-table{
+/* table{
     margin:5px;
     padding:10px;
     border: grey solid 1px;
     width:100%
-  }
+  } */
   
-  td{
+  /* td{
     padding:10px;
     align-self: center;
     border:solid grey .5px;
     text-align: center;
     font-size: large;
-  }
+  } */
   
   .review_panel{
     display: flex;
@@ -35,7 +35,7 @@ table{
     font-size: larger;
   }
 
-  th{
+  /* th{
     padding:5px;
     align-self: center;
     text-align: center;
@@ -43,7 +43,7 @@ table{
     margin-bottom: 1cm;
     vertical-align: middle;
     color: black;
-  }
+  } */
 
   .reviews_panel {
     display: flex;
@@ -80,9 +80,9 @@ table{
 
 .review_icon {
   width:40px;
+  transition:all ease 0.3s
 }
 
 .review_icon:hover {
   transform: scale(1.1);
-  border: solid lightgray;
 }

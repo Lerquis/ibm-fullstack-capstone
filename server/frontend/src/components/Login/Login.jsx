@@ -29,6 +29,7 @@ const Login = () => {
     } else {
       alert("The user could not be authenticated.");
     }
+    window.location.href = window.location.origin;
   };
 
   return (
