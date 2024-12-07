@@ -1,3 +1,4 @@
+# pylint: disable=all
 """
 Django settings for djangoproj project.
 
