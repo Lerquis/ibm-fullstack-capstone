@@ -33,6 +33,7 @@ const Dealers = () => {
       method: "GET",
     });
     const retobj = await res.json();
+
     if (retobj.status === 200) {
       let all_dealers = Array.from(retobj.dealers);
       let states = [];
@@ -87,7 +88,7 @@ const Dealers = () => {
               <td className="py-3 px-6 text-left whitespace-nowrap">
                 {dealer["id"]}
               </td>
-              <td className="py-3 px-6 text-left">
+              <td className="py-3 px-6 text-left underline">
                 <a href={"/dealer/" + dealer["id"]}>{dealer["full_name"]}</a>
               </td>
               <td className="py-3 px-6 text-left">{dealer["city"]}</td>
